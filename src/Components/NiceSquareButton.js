@@ -21,7 +21,7 @@ class NiceSquareButton extends Component {
             lineHeight: '50px'
         };
 
-        this.url = "";
+        this.url = undefined;
         this.txt = ""
 
         if (props !== undefined)

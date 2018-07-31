@@ -11,7 +11,8 @@ a:hover{
 
 html {
   margin: 0px;
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   width: 100%;
 }
 
@@ -152,16 +153,13 @@ body {
   .centerAboutBox-Big{
     color: black;
     justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    display: table-row;
-    top: 25%;
-    right: 5px;
-    left: 5px;
-    bottom: calc(4vh + 55px);
-    background: whitesmoke;
-    padding: 10px;
+    margin-left: 10%;
+    position: relative;
+    display: block;
+    clear: both;
+    height: 90%;
+    width: auto;
+    overflow:hidden;
 }
   .buttonsHome
   {
@@ -237,16 +235,14 @@ body {
   .centerAboutBox-Big{
     color: black;
     justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    display: table-row;
-    top: 25%;
-    right: 5px;
-    left: 5px;
-    bottom: calc(4vh + 55px);
-    background: whitesmoke;
-    padding: 10px;
+    margin-left: 10%;
+    position: relative;
+    display: block;
+    background: transparent;
+    clear: both;
+    height: 90%;
+    width: auto;
+    overflow:hidden;
   }  
 }
 
@@ -279,17 +275,15 @@ body {
   .centerAboutBox-Big{
     color: black;
     justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    display: table-row;  
-    top: 25%;
-    right: 5px;
-    left: 5px;
-    bottom: calc(4vh + 55px);
+    margin-left: 10%;
+    position: relative;
+    display: block;  
     text-align: center;
-    background: whitesmoke;
-    padding: 10px;
+    background: transparent;
+    clear: both;
+    height: 85%;
+    width: auto;
+    overflow:hidden;
 }
 
   footer{
@@ -477,16 +471,51 @@ body {
   cursor: pointer !important;
 }
 
-.centerAboutBox-Big table{
-  display: block;
-  overflow-y: scroll;
-  width: 100%;
-  height: 100%;
+.centerAboutBox-Big p, li{
+  color: whitesmoke;
 }
 
-.centerAboutBox-Big table tr td{
-  padding-right: 1em;
-  width: 50%;
-  text-align: left;
-  vertical-align: top;
+.centerAboutBox-Big a{
+  color: lightgray;
+  font-weight: bold;
+}
+
+i.fa-notfa-devto{
+  top: .125em;
+  position: relative;
+}
+
+i.fa-notfa-devto::before  {
+  content:"";
+  background-image:url('https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg');
+  filter: invert(100%);
+  height: 0.9em;
+  width: 0.9em;
+  display: inline-block;
+  background-position:center;
+  background-size:cover;
+  border-radius: 3px;
+}
+
+.aboutTitle{
+  width: 100%;
+  text-align: center;
+  margin: 1.5em 0px 2em;
+  letter-spacing: 0.1em;
+  color: powderblue;
+}
+
+.aboutTitle::after{
+  content: "";
+  display: block;
+  width: 4em;
+  border-top: 1px solid;
+  margin: .5em auto 1.5em;
+}
+
+.centerAboutBox-Big .scrollBox{
+  overflow-y:scroll;
+  height: 100%;
+  width: 100%;
+  position:absolute;
 }

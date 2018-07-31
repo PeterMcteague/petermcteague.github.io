@@ -172,6 +172,7 @@ body {
     padding-top: 20%;
     margin: auto;
     display: block;
+    margin-bottom: 10em;
   }
 
   .buttonsHome .buttonsHomeInner{
@@ -518,4 +519,21 @@ i.fa-notfa-devto::before  {
   height: 100%;
   width: 100%;
   position:absolute;
+}
+
+.webShow{
+  width: 100%;
+  height: fit-content;
+  display: table;
+  table-layout: fixed;
+}
+
+.webShow, th, td {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+.webShow tr div {
+  display: table-cell !important;
 }

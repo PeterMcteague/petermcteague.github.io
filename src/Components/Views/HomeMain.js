@@ -4,6 +4,7 @@ import ImageCircle from '../../Components/ImageCircle'
 import SqButton from '../../Components/NiceSquareButton'
 import '../App.css';
 import { css } from 'emotion';
+import me from '../../Resources/me-filtered.png';
 
 const writing = css({
     textAlign: 'center',
@@ -44,7 +45,7 @@ const writing = css({
 
 export default class HomeMain extends Component{
     componentDidMount() {
-        ReactDOM.render(<ImageCircle srcvar="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" width='20vh' height='20vh'/>, document.getElementById("imagecircle"));
+        ReactDOM.render(<ImageCircle srcvar={me} width='20vh' height='20vh'/>, document.getElementById("imagecircle"));
         ReactDOM.render(<SqButton url='./About' txt='About'/>,document.getElementById("aboutButton"));
     }
     render(){

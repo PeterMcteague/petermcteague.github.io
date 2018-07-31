@@ -29,7 +29,7 @@ export default class About extends Component {
                 </td>
                 <td>
                 <h4>Skills</h4>
-                  <p>I will try to keep this up to date however I recommend checking my LinkedIn profile's 'Skills' section for a full list.</p>
+                  <p>I will try to keep this up to date however I recommend checking my <a href='https://www.linkedin.com/in/peter-mcteague/'>LinkedIn profile's 'Skills' section</a> for a full list.</p>
                   <li>Agile Methodology</li>
                   <li>Object Orientation</li>
                   <li>Systems Design</li>

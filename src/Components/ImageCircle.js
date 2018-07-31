@@ -50,7 +50,7 @@ class ImageCircle extends Component {
 
     render() {
         return (
-            <img style={this.style} src={this.srcUrl} alt={this.altTxt}/>
+            <img className='imgCircle' style={this.style} src={this.srcUrl} alt={this.altTxt}/>
         );
     }
 }

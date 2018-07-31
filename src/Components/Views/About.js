@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import ReactDOM from 'react-dom'
 import { browserHistory } from 'react-router';
 import NavBar from '../../Components/NavBar';
-import ImageCircle from '../../Components/ImageCircle';
 import '../App.css';
 
 export default class About extends Component {

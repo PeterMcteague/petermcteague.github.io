@@ -417,6 +417,7 @@ body {
     font: normal normal normal 14px/1 FontAwesome;
     vertical-align: -15%;
   
+    margin-left: 5px;
     cursor:pointer;
     display:inline-block;
     font-family: FontAwesome;

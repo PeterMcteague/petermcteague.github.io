@@ -38,7 +38,7 @@ export default class Websites extends Component {
                 <p style={{marginLeft: 'auto', marginRight: 'auto', display: 'block', textAlign: 'center', width: '100%'}}>Among many others, some of which have been done for other clients.</p>
               <h4 className='aboutTitle'>Device compatibility</h4>
               <p>All sites and applications I make are 'responsive' meaning that the one site looks and functions great across computers, tablets and mobiles!</p>
-              <img src={responsiveMock} style={{width: '50vw', marginLeft: 'auto', marginRight: 'auto', display: 'block'}}></img>
+              <img alt='This site shown on multiple devices' src={responsiveMock} style={{width: '50vw', marginLeft: 'auto', marginRight: 'auto', display: 'block'}}></img>
               <br/><br/>
               <p>If you need a website or web app for your business created, modified or updated, <a href='mailto:petermcteaguedev@gmail.com'>get in touch!</a> I may be able to help you out!</p>
               </div>

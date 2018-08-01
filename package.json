@@ -1,7 +1,7 @@
 {
   "name": "petermcteague.github.io",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "homepage": "https://petermcteague.github.io",
   "dependencies": {
     "ajv": "^6.5.2",

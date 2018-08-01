@@ -1,10 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, browserHistory } from 'react-router';
-import routes from './routes';
-import './Components/App.css';
+import App from './Components/App';
 
-ReactDOM.render(
-  <Router history={browserHistory} routes={routes} />,
-  document.querySelector('#app')
-);
+ReactDOM.render(<App />, document.getElementById("app"));

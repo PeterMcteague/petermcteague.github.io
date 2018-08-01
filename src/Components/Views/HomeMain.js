@@ -46,7 +46,7 @@ const writing = css({
 export default class HomeMain extends Component{
     componentDidMount() {
         ReactDOM.render(<ImageCircle srcvar={me} width='20vh' height='20vh'/>, document.getElementById("imagecircle"));
-        ReactDOM.render(<SqButton url='./About' txt='About'/>,document.getElementById("aboutButton"));
+        ReactDOM.render(<SqButton url='./#/About' txt='About'/>,document.getElementById("aboutButton"));
     }
     render(){
         return(
